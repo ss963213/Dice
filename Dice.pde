@@ -13,9 +13,8 @@ dice.show();
 z=z+dice.diceNum;
 }
 }
-String sum=Integer.toString(z);
 fill(0);
-text("Total Value: "+sum,50,600);
+text("Total Value: "+z,50,600);
 }
 void mousePressed()
 {
